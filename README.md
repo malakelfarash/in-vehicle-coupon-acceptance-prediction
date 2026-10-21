@@ -144,7 +144,7 @@ git clone https://github.com/YourUsername/in-vehicle-coupon-acceptance-predictio
 cd in-vehicle-coupon-acceptance-prediction-sas
 ```
 
-Upload `coupon_acceptance_analysis.sas` and `data/in-vehicle-coupon-recommendation.csv` to your SAS environment (for SAS OnDemand, use the Server Files and Folders pane).
+Upload `coupon_acceptance_analysis.sas` and `in-vehicle-coupon-recommendation.csv` to your SAS environment (for SAS OnDemand, use the Server Files and Folders pane).
 
 ### Usage
 
