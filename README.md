@@ -5,12 +5,15 @@ An end-to-end data science project in SAS that explores, cleans, engineers featu
 ## Demo
 
 *Coupon Type vs. Acceptance*
+
 ![Coupon Type vs Acceptance](images/coupon_type_vs_acceptance.png)
 
 *Destination vs. Acceptance*
+
 ![Destination vs Acceptance](images/destination_vs_acceptance.png)
 
 *Coupon Expiration vs. Acceptance*
+
 ![Expiration vs Acceptance](images/expiration_vs_acceptance.png)
 
 *Logistic Regression ROC Curve (Training Data)*
@@ -18,6 +21,7 @@ An end-to-end data science project in SAS that explores, cleans, engineers featu
 ![ROC Curve](images/roc_curve.png)
 
 *Predicted Probability of Acceptance by Actual Outcome*
+
 ![Probability Distribution](images/probability_distribution.png)
 
 ## Features
