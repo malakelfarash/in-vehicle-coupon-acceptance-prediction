@@ -53,7 +53,7 @@ Respondents were placed in simulated driving scenarios and asked whether they wo
 | **Context** | `destination`, `passanger`, `weather`, `time`, `temperature`, `expiration`, `coupon` |
 | **Demographics** | `gender`, `age`, `maritalStatus`, `has_children`, `education`, `occupation`, `income`, `car` |
 | **Visit habits** | `Bar`, `CoffeeHouse`, `CarryAway`, `RestaurantLessThan20`, `Restaurant20To50` |
-| **Distance / direction** | `direction_same`, `direction_opp`, `toCoupon_GEQ5min`, `toCoupon_GEQ15min`, `toCoupon_GEQ25min` |
+| **Distance / Direction** | `direction_same`, `direction_opp`, `toCoupon_GEQ5min`, `toCoupon_GEQ15min`, `toCoupon_GEQ25min` |
 | **Target** | `Y` (1 = coupon accepted, 0 = rejected) |
 
 *Note: `passanger` is spelled as it appears in the original dataset.*
@@ -130,7 +130,6 @@ Stepwise selection (entry at p < 0.05) kept five predictors. The model reaches a
 
 ### Prerequisites
 - SAS 9.4 or SAS OnDemand for Academics (SAS Studio)
-- The dataset file `in-vehicle-coupon-recommendation.csv`
 
 ### Installation
 
