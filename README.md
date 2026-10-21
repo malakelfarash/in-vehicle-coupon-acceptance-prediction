@@ -7,11 +7,11 @@ An end-to-end data science project in SAS that explores, cleans, engineers featu
 *Coupon Type vs. Acceptance*
 ![Coupon Type vs Acceptance](images/coupon_type_vs_acceptance.png)
 
-*Coupon Expiration vs. Acceptance*
-![Expiration vs Acceptance](images/expiration_vs_acceptance.png)
-
 *Destination vs. Acceptance*
 ![Destination vs Acceptance](images/destination_vs_acceptance.png)
+
+*Coupon Expiration vs. Acceptance*
+![Expiration vs Acceptance](images/expiration_vs_acceptance.png)
 
 *Logistic Regression ROC Curve (Training Data)*
 ![ROC Curve](images/roc_curve.png)
