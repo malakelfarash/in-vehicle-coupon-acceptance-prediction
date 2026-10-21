@@ -14,6 +14,7 @@ An end-to-end data science project in SAS that explores, cleans, engineers featu
 ![Expiration vs Acceptance](images/expiration_vs_acceptance.png)
 
 *Logistic Regression ROC Curve (Training Data)*
+
 ![ROC Curve](images/roc_curve.png)
 
 *Predicted Probability of Acceptance by Actual Outcome*
