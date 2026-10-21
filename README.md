@@ -66,6 +66,7 @@ Respondents were placed in simulated driving scenarios and asked whether they wo
 ## Methodology
 
 1. **Data Quality Audit:** 12,684 rows and 26 columns. Missing values in `age` (2,325), `car` (99%), and the five visit-frequency columns (107 to 217 each), plus 74 duplicate rows.
+   - The IQR outlier check flagged 2,325 `age` values, but all of them were missing values. SAS treats a missing number as smaller than any real value, so they fell below the lower bound. They were imputed as missing data, not removed as outliers. `temperature` has no outliers, since it only takes three values (30, 55, 80°F).
 2. **Cleaning:**
    - Removed 74 duplicates (12,610 rows remain).
    - Dropped `car` (99.14% missing, effectively unusable).
@@ -82,6 +83,8 @@ Respondents were placed in simulated driving scenarios and asked whether they wo
    - Dropped the three distance flags after combining them.
 4. **Scaling:** Z-score standardization of `temperature` and `age`, with the test set scaled using the training-set statistics (`PROC STDIZE ... METHOD=IN`).
 5. **Modeling:** Logistic Regression with stepwise selection and K-Nearest Neighbors (K=5), both trained on the training set and evaluated on the test set.
+
+For the full EDA write-up and the reasoning behind each decision, see [`docs/project_report.pdf`](docs/project_report.pdf).
 
 ## Results
 
