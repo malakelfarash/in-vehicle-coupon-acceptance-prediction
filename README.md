@@ -84,7 +84,7 @@ Respondents were placed in simulated driving scenarios and asked whether they wo
 4. **Scaling:** Z-score standardization of `temperature` and `age`, with the test set scaled using the training-set statistics (`PROC STDIZE ... METHOD=IN`).
 5. **Modeling:** Logistic Regression with stepwise selection and K-Nearest Neighbors (K=5), both trained on the training set and evaluated on the test set.
 
-For the full EDA write-up and the reasoning behind each decision, see [`docs/project_report.pdf`](docs/project_report.pdf).
+> For the full EDA write-up and the reasoning behind each decision, see [`docs/project_report.pdf`](docs/project_report.pdf).
 
 ## Results
 
@@ -156,7 +156,9 @@ Open the `FILENAME` statement at the top of the script and point it to where you
 FILENAME REFFILE '/home/<your-username>/<your-folder>/in-vehicle-coupon-recommendation.csv';
 ```
 
-Then run the script from top to bottom. The output (tables and charts) appears in the Results tab, and the final datasets (`train_ready`, `test_ready`, `final_predictions`, `knn_results`) are created in the `WORK` library. A saved copy of a full run is in `docs/sas_output_results.pdf`.
+Then run the script from top to bottom. The output (tables and charts) appears in the Results tab, and the final datasets (`train_ready`, `test_ready`, `final_predictions`, `knn_results`) are created in the `WORK` library. 
+
+> A saved copy of a full run is in [`docs/sas_output_results.pdf`](docs/sas_output_results.pdf).
 
 ## Limitations and Future Work
 
